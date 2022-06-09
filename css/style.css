@@ -1,0 +1,220 @@
+#navbar
+{
+    position:relative;
+    display: flex;
+    align-items: center;
+}
+#navbar ul
+{
+    display: flex;
+
+}
+#navbar::before
+{
+    content:"";
+    background-color: black;
+    position:absolute;
+    height : 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.8;
+    border-radius: 50px;
+}
+#navbar ul li
+{
+    list-style: none;
+    font-size:1.5rem;
+}
+#navbar ul li a
+{
+    color:white;
+    display:block;
+    text-decoration: none;
+    padding: 3px 20px;
+    border-radius: 50px ;
+
+}
+#navbar ul li a:hover
+{
+    color: black;
+    background-color: white;
+    
+}
+/* Home Section */
+#home
+{
+    background: url('../image/home1.jpg');
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: cover;
+}
+.heading
+{
+    text-align: center;
+    color:white;
+    font-size: 3.4em;
+    padding-top:100px;
+
+}
+.container
+{
+    display:flex;
+    padding:10px 80px;
+    color:white;
+    
+}
+
+
+
+.para
+{
+    padding:20px 20px;
+    font-size: 1.3em;;
+}
+
+#personal
+{
+    display:flex;
+    flex-direction: column;
+    margin-top :30px;
+    
+    padding: 5px 6px;
+    line-height: 0em;
+    height :434px;
+    width:100%;
+    
+}
+#personal p
+{
+    text-align:initial;
+    
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+    color:white;
+    margin-left: 8px;
+  
+    
+    
+}
+#personal h1{
+    font-size: 3rem;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color:rgb(193, 159, 202);
+    margin-left: 8px;
+    text-shadow:3px 3px 2px #210521;
+}
+#personal::before
+{
+    content:"";
+    background: url('../image/home3.jpg') no-repeat repeat center ;
+    background-size: cover;
+    position:absolute;
+    height :434px;
+    width:100%;
+    z-index: -1;
+
+}
+#qualifications
+{
+    display:flex;
+    margin-top :30px;
+    
+    padding: 5px 6px;
+    height:400px;
+    width:100%;
+    
+}
+#qualifications::before
+
+{
+    content:"";
+    background: url('../image/qualifications.jpg') no-repeat repeat center ;
+    position:absolute;
+    height :400px;
+    width:100%;
+    z-index: -1;
+    background-size: cover;
+}
+#qualifications h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight:bold;
+    justify-content:center;
+    color:rgb(17, 82, 39);
+    text-shadow: 2px 2px 2px white;
+    margin-left: 8px;
+}
+#qualifications div
+{
+ margin:0px 0px;
+ 
+ 
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 20px 20px;
+    font-size: 1rem;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
+}
+.table thead tr{
+    margin:40px 20px;
+    text-align: left;
+    background-color: rosybrown;
+    color: saddlebrown;
+    font-weight: bold;
+}
+.table th,.table td{
+    margin:   40px 20px;
+    padding: 12px 15px;
+}
+.table tbody tr{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.table tbody tr:nth-of-type(even){
+background-color: cadetblue;
+}
+.table tbody tr:nth-last-of-type(){
+border-bottom: 2px solid cadetblue;
+}
+#contact .gd
+{
+    display:grid;
+}
+.grid
+{
+    width:100%;
+    height:30px;
+    background-color:#d89c79;;
+    margin:5px;
+}
+
+#contact h1
+{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color:#82184e;
+    text-shadow: 2px 2px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#contact::before
+{
+    content:"";
+    background: url('../image/bg5.jpg') no-repeat repeat center ;
+    position:absolute;
+    height :200px;
+    width:100%;
+    z-index: -1;
+    opacity:0.8;
+    background-size: cover;
+}
